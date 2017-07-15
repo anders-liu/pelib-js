@@ -1,0 +1,31 @@
+{
+  "name": "pelib",
+  "version": "0.1.0",
+  "description": "JavaScript library for loading PE (Portable Executable) file.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anders-liu/pelib-js.git"
+  },
+  "keywords": [
+    "pe",
+    "exe",
+    "dll"
+  ],
+  "author": "Anders Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anders-liu/pelib-js/issues"
+  },
+  "homepage": "https://github.com/anders-liu/pelib-js#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-typescript": "^3.2.0",
+    "source-map": "^0.5.6",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.2.2",
+    "typescript": "^2.4.1",
+    "webpack-stream": "^3.2.0"
+  }
+}

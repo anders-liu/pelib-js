@@ -1,0 +1,12 @@
+# Dev supports
+node_modules/
+
+# Outpus
+out/
+
+# Editors
+.vs/
+.vscode/
+
+# Debug logs
+npm-debug.log*
