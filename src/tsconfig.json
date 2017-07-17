@@ -1,10 +1,9 @@
 {
     "compilerOptions": {
-        "declaration": true,
         "forceConsistentCasingInFileNames": true,
         "module": "none",
         "noImplicitReturns": true,
-        "outDir": "../out/tsc/src",
+        "outDir": "../out/tsc",
         "removeComments": true,
         "sourceMap": true,
         "strict": true,
