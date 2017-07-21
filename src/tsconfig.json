@@ -1,14 +1,14 @@
 {
     "compilerOptions": {
         "forceConsistentCasingInFileNames": true,
-        "module": "none",
+        "module": "commonjs",
         "noImplicitReturns": true,
         "outDir": "../out/tsc",
         "removeComments": true,
         "sourceMap": true,
         "strict": true,
         "stripInternal": true,
-        "target": "es6"
+        "target": "es5"
     },
     "include": [
         "**/*.ts"

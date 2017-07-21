@@ -1,8 +1,10 @@
+const path = require("path");
+
 module.exports = {
-    entry: "./entry.ts",
+    entry: path.resolve(__dirname, "entry.ts"),
     target: "web",
     output: {
-        path: __dirname + "/../out/webpack",
+        path: path.resolve(__dirname, "../out/webpack"),
         filename: "pelib.js",
         libraryTarget: "umd",
         library: "pelib"
